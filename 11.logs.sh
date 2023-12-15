@@ -23,7 +23,7 @@ then
     echo -e "$R ERROR::PLease use Root user $N"
     exit 1
 else 
-        echo -e "$Y U R root user"
+        echo -e "$Y U R root user $N"
 fi
 yum install mysql -y
 VALIDATE $? "MySQL Installing" &>> $LOGFILE
