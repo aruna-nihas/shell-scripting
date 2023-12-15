@@ -1,3 +1,3 @@
 #!/bin/bash
-DATE=$(date +F-%H-%M-%S)
+DATE=$(date +%F-%H-%M-%S)
 echo "Date and Time is:${DATE}"
