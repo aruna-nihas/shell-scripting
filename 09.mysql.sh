@@ -7,3 +7,4 @@ else
     echo "You are root user"
 fi
 yum install mysql -y
+echo "Mysql installed successfully...."
