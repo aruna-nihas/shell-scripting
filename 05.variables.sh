@@ -6,3 +6,6 @@ PASSWORD=$2
 echo "Please enter username"
 read USERNAME
 echo "Username is $USERNAME"
+echo "Please enter Password"
+read -s PASSWORD
+echo "Username is $PASSWORD"
