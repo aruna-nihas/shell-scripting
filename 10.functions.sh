@@ -11,7 +11,7 @@ then
     exit 1
 else
      
-   echo -e "$G $2 installed successfully....$N"
+   echo -e "$G $2 successfully....$N"
 fi
     
 }
@@ -20,10 +20,10 @@ then
     echo -e "$R ERROR::Please user root user...$N"
     exit 1
 else
-    echo -e "\Y you are root user...$N"
+    echo -e "$Y you are root user...$N"
 fi
 yum install mysql -y
 VALIDATE $? "INstalling MySQL..."
-yum install gitt -y
+yum install git -y
 VALIDATE $? "INstalling GIT..."
 
