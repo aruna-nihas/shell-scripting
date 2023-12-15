@@ -8,3 +8,5 @@ echo "fourth fruis is:${FRUITS[3]}"
 echo "All fruis are:${FRUITS[@]}"
 
 echo "${FRUITS[#]}"
+echo "$#"
+echo "$0"
