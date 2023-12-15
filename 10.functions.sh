@@ -22,8 +22,8 @@ then
 else
     echo -e "\Y you are root user...$N"
 fi
-yum install mysql -y
+yum install mysqll -y
 VALIDATE $? "INstalling MySQL..."
-yum install git -y
+yum install gitt -y
 VALIDATE $? "INstalling GIT..."
 
