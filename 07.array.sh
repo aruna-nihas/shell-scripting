@@ -7,4 +7,4 @@ echo "Third fruis is:${FRUITS[2]}"
 echo "fourth fruis is:${FRUITS[3]}"
 echo "All fruis are:${FRUITS[@]}"
 
-echo "No of fruits:${FRUITS[#]}"
+echo "${FRUITS[#]}"
