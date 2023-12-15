@@ -12,7 +12,7 @@ else
    echo -e "$G $2 successful....$N"
 fi
 }
-if [ $1 -ne 0 ]
+if [ $ID -ne 0 ]
 then
     echo -e "$R ERROR::PLease use Root user $N"
     exit 1
