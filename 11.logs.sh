@@ -26,6 +26,6 @@ else
         echo -e "$Y U R root user $N"
 fi
 yum install mysqll -y
-VALIDATE $? "MySQL Installing" &>> $LOGFILE
+VALIDATE $? "MySQL Installing" 
 yum install git -y  
-VALIDATE $? "GIT Installing" &>> $LOGFILE
+VALIDATE $? "GIT Installing"
